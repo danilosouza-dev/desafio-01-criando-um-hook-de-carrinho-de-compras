@@ -40,10 +40,6 @@ const Home = (): JSX.Element => {
         priceFormatted: formatPrice(product.price)
       }))
 
-      // const productsFormated = response.data.map((product: Product) => {
-      //   return {...product, priceFormatted: formatPrice(product.price)}
-      // });
-
       setProducts(data);
     }
 
